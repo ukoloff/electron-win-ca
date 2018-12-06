@@ -1,13 +1,29 @@
 {
   "name": "electron-win-ca",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Test win-ca in Electron",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukoloff/electron-win-ca.git"
   },
-  "keywords": [],
-  "author": "",
+  "main": "lib",
+  "scripts": {
+    "start": "electron src"
+  },
+  "keywords": [
+    "n-api",
+    "ssl",
+    "tls",
+    "ca",
+    "root",
+    "windows",
+    "vscode",
+    "electron"
+  ],
+  "author": {
+    "name": "Stas Ukolov",
+    "email": "ukoloff@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "electron": "^3.0.10",
