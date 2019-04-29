@@ -27,7 +27,7 @@
   "license": "ISC",
   "dependencies": {
     "electron": "^3.0.10",
-    "win-ca": "^2.2.0",
+    "win-ca": "^3.0.0-beta",
     "without": "^1.2.3"
   }
 }
