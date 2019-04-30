@@ -1,10 +1,23 @@
 const ca = require('win-ca')
 const withOut = require('without')
 
-setTimeout(render)
+fetch().then(render)
 
-function render() {
-  document.body.innerHTML = withOut(t)(ca.all(ca.der2.txt))
+function fetch() {
+  var list = []
+  return new Promise(resolve => {
+    ca({
+      async: true,
+      format: ca.der2.txt,
+      ondata: list,
+      onend: resolve
+    })
+  })
+  .then(_ => list)
+}
+
+function render(list) {
+  document.body.innerHTML = withOut(t)(list)
 }
 
 function t(roots) {

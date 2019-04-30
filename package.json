@@ -1,6 +1,7 @@
 {
   "name": "electron-win-ca",
-  "version": "1.0.0",
+  "private": true,
+  "version": "3.0.4",
   "description": "Test win-ca in Electron",
   "repository": {
     "type": "git",
@@ -27,7 +28,7 @@
   "license": "ISC",
   "dependencies": {
     "electron": "^3.0.10",
-    "win-ca": "^2.2.0",
+    "win-ca": "^3.0.4",
     "without": "^1.2.3"
   }
 }
