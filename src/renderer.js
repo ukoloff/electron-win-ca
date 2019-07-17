@@ -13,7 +13,7 @@ function fetch() {
       onend: resolve
     })
   })
-  .then(_ => list)
+    .then(_ => list)
 }
 
 function render(list) {
