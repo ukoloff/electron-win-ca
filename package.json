@@ -27,8 +27,10 @@
     "electron"
   ],
   "dependencies": {
-    "electron": "^4.2.6",
     "win-ca": "^3.1.0",
     "without": "^1.2.3"
+  },
+  "devDependencies": {
+    "electron": "^5.0.7"
   }
 }
